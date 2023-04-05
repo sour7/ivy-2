@@ -163,7 +163,7 @@ const [courses, setCourses]= useState([])
 
   useEffect(()=>{
     const getCourses= async()=>{
-       const res= await axios.get("http://localhost:8000/api/v1")
+       const res= await axios.get("https://ivy-api.onrender.com/api/v1")
        setCourses(res.data)
     }
     getCourses()
