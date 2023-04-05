@@ -1,0 +1,73 @@
+.slider-box {
+  /* border: 2px solid red; */
+  width: 80%;
+  margin: auto;
+}
+.slider-wrapper {
+  /* border: 2px solid teal ; */
+  display: flex;
+  flex-direction: column;
+  height: 270px;
+  padding: 10px;
+}
+
+.slider-shadow {
+  /* border: 2px solid blue ; */
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 10px;
+  height: 260px;
+}
+.slider-hike {
+  /* border: 1px solid red; */
+  display: flex;
+  gap: 4px;
+  width: max-content;
+  font-size: 12px;
+  padding: 2px 4px;
+  color: white;
+  background-color: orange;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.slider-img {
+  position: relative;
+  background-size: cover;
+  height: 500px;
+}
+.slider-overlay {
+  position: absolute;
+  margin-top: 16px;
+  width: 280px;
+  height: 135px;
+  background-color: rgba(32, 30, 30, 0.388);
+}
+.play-btn {
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.slider-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.from-to-company {
+  margin-top: 20px;
+  border: 10px solid rgb(249, 228, 189);
+  background-color: rgb(249, 228, 189);
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  width: 93%;
+  overflow: hidden;
+}
+.slider-to-from {
+  transform: rotate(360deg) scaleX(-1);
+  width: 400px;
+}

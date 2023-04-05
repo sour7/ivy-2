@@ -1,0 +1,14 @@
+.checkout-testimonial {
+  margin-top: 80px;
+}
+.checkout-testimonial-text {
+  text-align: center;
+}
+.checkout-testimonial-text > h2 {
+  font-size: 34px;
+  padding-bottom: 10px;
+}
+.checkout-testimonial-text > p {
+  font-size: 13px;
+  color: gray;
+}

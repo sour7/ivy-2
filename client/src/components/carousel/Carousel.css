@@ -1,0 +1,77 @@
+.embla {
+  position: relative;
+  font-size: 13px;
+  padding: 20px;
+  max-width: 90%;
+  margin: auto;
+  /* border: 10px solid blue; */
+}
+
+.embla__viewport {
+  overflow: hidden;
+  width: 100%;
+}
+
+.embla__viewport.is-draggable {
+  cursor: move;
+  cursor: grab;
+}
+
+.embla__viewport.is-dragging {
+  cursor: grabbing;
+}
+
+.embla__container {
+  display: flex;
+  user-select: none;
+  -webkit-touch-callout: none;
+  -khtml-user-select: none;
+  -webkit-tap-highlight-color: transparent;
+  margin-left: -10px;
+  /* border: 10px solid teal; */
+}
+
+.embla__slide {
+  position: relative;
+  width: 600px;
+
+  border: 1px solid gray;
+  margin-left: 20px;
+  border-radius: 20px;
+}
+.embla-message {
+  background-color: rgb(255, 235, 195);
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.embla-message > p {
+  padding: 20px 5px;
+  text-align: left;
+}
+
+.embla__slide__inner {
+  position: relative;
+  overflow: hidden;
+}
+
+.embla-slider-box {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.embla__slide__img {
+  /* position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    min-height: 100%;
+    min-width: 100%;
+    max-width: none;
+    transform: translate(-50%, -50%); */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

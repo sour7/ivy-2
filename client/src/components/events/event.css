@@ -1,0 +1,76 @@
+.events-container {
+  margin-top: 100px;
+}
+.events-container > div > p {
+  width: 50%;
+  margin: auto;
+}
+.event-wrapper {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  /* border: 2px solid red; */
+  margin: auto;
+}
+.event-box {
+  /* border: 2px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px,
+    rgba(0, 0, 0, 0.05) 0px 5px 10px;
+  width: 300px;
+  padding: 20px;
+  border-radius: 20px;
+}
+.event-details {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.pic-name {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.event-person-name {
+  font-weight: 550;
+}
+.event-person-position {
+  font-size: 13px;
+  color: gray;
+}
+.event-outcome {
+  padding-top: 20px;
+  font-size: 13px;
+  color: gray;
+  display: flex;
+  align-items: center;
+}
+.event-button {
+  /* border: 1px solid rgb(0, 110, 255); */
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  padding: 5px 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(0, 110, 255);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.event-register {
+  border: none;
+  background-color: none;
+}
+.event-all {
+  margin: auto;
+  margin-top: 20px;
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(0, 110, 255);
+  border-radius: 20px;
+  cursor: pointer;
+  width: max-content;
+  padding: 10px;
+}
